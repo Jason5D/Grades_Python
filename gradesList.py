@@ -5,4 +5,7 @@ gradebook = [[subjects[0], grades[0]], [subjects[1], grades[1]],[subjects[2], gr
 gradebook.append(["computer science", 100])
 gradebook.append(["visual arts", 93])
 
+gradebook[5][1] += 5
+gradebook[2].remove(85)
+gradebook[2].append("Pass")
 print(gradebook)
